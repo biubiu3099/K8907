@@ -1,0 +1,113 @@
+*{margin: 0;padding: 0;}
+a{text-decoration: none;color: black;}
+li{list-style: none}
+html{font-size: 10px;}
+body{background: #f0f0f0}
+.header{
+    width: 100%;
+    height: 14rem;
+    background: red;
+}
+.header>p:first-of-type{
+    position: relative;
+}
+.header>p:nth-child(2){
+    position: absolute;
+    top: 7rem;
+    left: 1rem;
+    font-size: 1.8rem;
+    color: #FFFFFF;
+}
+.header>p:nth-child(2)>span{
+    position: relative;
+    left: 1rem;
+    bottom: 2rem;
+}
+.header p:first-of-type>span>i{
+    font-size: 2.8rem;
+    color: #FFFFFF;
+}
+.header p:first-of-type span:nth-child(1){
+    position: absolute;
+    top: 0.6rem;
+    left: 0.6rem;
+ }
+.header p:first-of-type span:nth-child(2){
+    position: absolute;
+    right: 0.6rem;
+    top: 0.6rem;
+}
+
+
+
+h4{
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-indent: 0.6rem;
+    border-bottom: solid 1px #e1e1e1;
+    padding: 1rem 0;
+    background: #FFFFFF;
+}
+ul{
+    display: flex;
+    background: #FFFFFF;
+    font-size: 1.4rem;
+    padding-top: 2rem;
+}
+ul li{
+    flex: 1;
+    text-align: center;
+    list-style: none;
+    height: 6rem;
+}
+.dingdan,.zichan,.shoucang,.fuwu{
+    margin-bottom: 2rem;
+}
+.dingdan i,.zichan i,.shoucang i,.fuwu i{
+    font-size: 2.8rem;
+}
+.dingdan i{
+    color: red;
+}
+.shoucang i{
+    color: #a9a9a9;
+}
+.dingdan{
+    position: relative;
+}
+.dingdan span{
+    position: absolute;right: 0.8rem;
+    top: 1rem;
+    color: #CCCCCC;
+}
+.fuwu{
+    margin-bottom: 5.8rem;
+}
+
+
+
+#footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 4rem;
+    padding: 0.6rem 0;
+    box-shadow: 0 -0.1rem 0.1rem #F5F5F5;
+    display: flex;
+    background: #FFFFFF;
+}
+#footer li{
+    flex: 1;
+    text-align: center;
+}
+#footer i{
+    font-size: 2.8rem;
+}
+
+
+
+
+
+
+
+
